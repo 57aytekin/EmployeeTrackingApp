@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/employeeTrackingFragment">
+
+    <fragment
+        android:id="@+id/employeeTrackingFragment"
+        android:name="com.example.employeetrackingapp.ui.employee_tracking.EmployeeTrackingFragment"
+        android:label="fragment_employee_tracking"
+        tools:layout="@layout/fragment_employee_tracking" />
+    <fragment
+        android:id="@+id/employeeListFragment"
+        android:name="com.example.employeetrackingapp.ui.employee.EmployeeListFragment"
+        android:label="fragment_employee_list"
+        tools:layout="@layout/fragment_employee_list" />
+    <fragment
+        android:id="@+id/processListFragment"
+        android:name="com.example.employeetrackingapp.ui.process.ProcessListFragment"
+        android:label="fragment_process_list"
+        tools:layout="@layout/fragment_process_list" />
+</navigation>

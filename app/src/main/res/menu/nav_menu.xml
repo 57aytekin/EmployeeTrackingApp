@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_tab_emp_tracking"
+        android:icon="@drawable/ic_emp_tracking"
+        app:showAsAction="always"
+        android:title="Görev Takibi"/>
+    <item
+        android:id="@+id/nav_tab_employee"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_employee"
+        android:title="Personel"/>
+
+    <item
+        android:id="@+id/nav_tab_process"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_process"
+        android:menuCategory="secondary"
+        android:title="İşlemler"/>
+</menu>

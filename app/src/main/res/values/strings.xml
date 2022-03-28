@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EmployeeTrackingApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="DifficultyLevel">
+        <item>1</item>
+        <item>5</item>
+        <item>8</item>
+        <item>9</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>
